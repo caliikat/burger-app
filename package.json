@@ -1,0 +1,28 @@
+{
+  "name": "burger-app",
+  "version": "1.0.0",
+  "description": "a burger app with MySQL, Node, Express, Handlebars and a homemade ORM",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caliikat/burger-app.git"
+    },
+    
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/caliikat/burger-app/issues"
+    },
+  "homepage": "https://github.com/caliikat/burger-app",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.6",
+    "mysql": "^2.12.0",
+    "path": "^0.12.7"
+  }
+}
