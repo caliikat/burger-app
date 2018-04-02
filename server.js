@@ -34,7 +34,7 @@ app.use('/', routes);
 
 
 
-app.set('port', (process.env.PORT || 3000));
+app.set('port', (process.env.PORT || 8080));
 
 var server = app.listen(app.get('port'), function () {
     console.log("Listening on port %s...", server.address().port);
